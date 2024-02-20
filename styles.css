@@ -1,25 +1,25 @@
-@import url("https://p.typekit.net/p.css?s=1&k=bgr4yjh&ht=tk&f=21552.21553.21554.21555.14718.14719.14723.14724.14725.14726&a=3140426&app=typekit&e=css");
-
 @font-face {
   font-family: "LektoratText";
-  src: url("./Lektorat/LektoratText-Regular.ttf");
+  src: url("./Lektorat/LektoratText-Semibold.ttf");
   font-weight: 600;
   font-style: normal;
 }
 
+/* 
 @font-face {
   font-family: "LektoratText";
   src: url("./Lektorat/LektoratText-Bold.ttf");
   font-weight: bold;
   font-style: normal;
-}
+}*/
 
-@font-face {
+/* @font-face {
   font-family: "LektoratText";
   src: url("./Lektorat/LektoratText-Regular.ttf");
   font-weight: normal;
   font-style: normal;
-}
+} */
+
 /* 
 @font-face {
   font-family: "bookmania";
@@ -75,7 +75,7 @@
   font-style: normal;
   font-weight: 400;
   font-stretch: normal;
-} */
+}*/
 
 @font-face {
   font-family: "bookmania";
@@ -94,7 +94,8 @@ body {
   font-family: "LektoratText";
 }
 h1 {
-  font-family: bookmania, Garamond;
+  /* font-family: bookmania, Garamond; */
+  font-family: "LektoratText";
   color: rgb(0, 0, 0);
   opacity: 0.9;
   /* font-weight: 600;
@@ -115,6 +116,7 @@ h1 {
 }
 
 .share__button {
+  font-family: "LektoratText";
   background: none;
   border: none;
   font-size: 1rem;
