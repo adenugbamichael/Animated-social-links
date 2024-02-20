@@ -1,0 +1,176 @@
+@import url("https://p.typekit.net/p.css?s=1&k=bgr4yjh&ht=tk&f=21552.21553.21554.21555.14718.14719.14723.14724.14725.14726&a=3140426&app=typekit&e=css");
+
+@font-face {
+  font-family: "LektoratText";
+  src: url("./Lektorat/LektoratText-Regular.ttf");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LektoratText";
+  src: url("./Lektorat/LektoratText-Bold.ttf");
+  font-weight: bold;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "LektoratText";
+  src: url("./Lektorat/LektoratText-Regular.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+/* 
+@font-face {
+  font-family: "bookmania";
+  src: url("https://use.typekit.net/af/184205/00000000000000007735e591/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/184205/00000000000000007735e591/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/184205/00000000000000007735e591/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=i7&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "bookmania";
+  src: url("https://use.typekit.net/af/859a3b/00000000000000007735e58f/30/l?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/859a3b/00000000000000007735e58f/30/d?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/859a3b/00000000000000007735e58f/30/a?primer=7cdcb44be4a7db8877ffa5c0007b8dd865b3bbc383831fe2ea177f62257a9191&fvd=n7&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 700;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "bookmania";
+  src: url("https://use.typekit.net/af/8455b1/00000000000000007735e592/30/l?subset_id=2&fvd=i4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/8455b1/00000000000000007735e592/30/d?subset_id=2&fvd=i4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/8455b1/00000000000000007735e592/30/a?subset_id=2&fvd=i4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: italic;
+  font-weight: 400;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: "bookmania";
+  src: url("https://use.typekit.net/af/e792b0/00000000000000007735e58e/30/l?subset_id=2&fvd=n4&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/e792b0/00000000000000007735e58e/30/d?subset_id=2&fvd=n4&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/e792b0/00000000000000007735e58e/30/a?subset_id=2&fvd=n4&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 400;
+  font-stretch: normal;
+} */
+
+@font-face {
+  font-family: "bookmania";
+  src: url("https://use.typekit.net/af/1dda7f/00000000000000007735e58d/30/l?subset_id=2&fvd=n6&v=3")
+      format("woff2"),
+    url("https://use.typekit.net/af/1dda7f/00000000000000007735e58d/30/d?subset_id=2&fvd=n6&v=3")
+      format("woff"),
+    url("https://use.typekit.net/af/1dda7f/00000000000000007735e58d/30/a?subset_id=2&fvd=n6&v=3")
+      format("opentype");
+  font-display: auto;
+  font-style: normal;
+  font-weight: 600;
+  font-stretch: normal;
+}
+body {
+  font-family: "LektoratText";
+}
+h1 {
+  font-family: bookmania, Garamond;
+  color: rgb(0, 0, 0);
+  opacity: 0.9;
+  /* font-weight: 600;
+  font-style: normal;
+  letter-spacing: -0.005em;
+  line-height: 1.25em; */
+}
+
+.main {
+  margin: 48px;
+}
+
+.share {
+  font-family: "LektoratText";
+  background: #e8d9b7;
+  border-radius: 36px;
+  display: inline-flex;
+}
+
+.share__button {
+  background: none;
+  border: none;
+  font-size: 1rem;
+  padding: 0 2rem 0 1.5rem;
+  border-radius: 36px;
+  display: flex;
+  align-items: center;
+  gap: 1ch;
+}
+
+.share__button:hover,
+.share__button:focus-visible,
+.share_expanded .share__button {
+  cursor: pointer;
+  outline: solid 1px black;
+  outline-offset: -5px;
+}
+
+.share__menu-item {
+  list-style: none;
+  background: inherit;
+  border-radius: inherit;
+}
+
+.share__menu {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  background: inherit;
+  border-radius: inherit;
+  width: 0;
+  overflow: hidden;
+  transition: width 250ms ease-in-out;
+}
+
+.share__link:link,
+.share__link:visited {
+  height: 48px;
+  width: 48px;
+  border: solid 1px transparent;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: inherit;
+}
+
+.share__link:hover,
+.share__link:focus-visible {
+  border-color: black;
+  outline: none;
+  transform: scale(1.25);
+}
+
+.share_expanded .share__menu {
+  width: 200px;
+  padding: 0 2rem 0 1rem;
+  /* overflow: visible; */
+}
